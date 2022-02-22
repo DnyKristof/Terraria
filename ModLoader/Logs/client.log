@@ -1,0 +1,279 @@
+﻿[17:48:58] [1/INFO] [tML]: Starting tModLoader v0.11.6.2 Windows client (2020. 01. 30.)
+[17:48:58] [1/INFO] [tML]: Running on NetFramework 4.8
+[17:48:58] [1/INFO] [tML]: Executable: F:\SteamLibrary\steamapps\common\Terraria\Terraria.exe
+[17:48:58] [1/INFO] [tML]: Working Directory: F:\SteamLibrary\steamapps\common\Terraria
+[17:48:58] [1/INFO] [tML]: Launch Parameters: 
+[17:48:58] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[17:48:59] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[17:48:59] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[17:48:59] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[17:48:59] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[17:48:59] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+[17:49:09] [1/DEBUG] [Terraria]: Graphics Device: NVIDIA GeForce GTX 980 {Width:2560 Height:1080 Format:Color AspectRatio:2.37037}
+[17:49:09] [1/DEBUG] [Terraria]: Device Reset, Profile: Reach -> HiDef, Width: 800, Height: 480, Fullscreen: False, Display: \\.\DISPLAY2
+[17:49:52] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 800 -> 2560, Height: 480 -> 1017, Fullscreen: False, Display: \\.\DISPLAY2
+[17:49:58] [7/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[17:49:58] [7/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
+[17:49:59] [7/DEBUG] [tML]: Assembly Resolve:  -> Mono.Cecil.Mdb, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[17:49:59] [7/DEBUG] [tML]: Assembly Resolve:  -> Mono.Cecil.Pdb, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[17:49:59] [7/INFO] [Terraria]: JIT loading finished
+[17:49:59] [8/INFO] [tML]: Unloading mods
+[17:50:00] [8/INFO] [tML]: Finding Mods...
+[17:50:00] [8/INFO] [tML]: Sandboxing: CalamityMod
+[17:50:01] [8/INFO] [tML]: Sandboxing: CalamityModMusic
+[17:50:01] [8/INFO] [tML]: Sandboxing: AlchemistNPCLite
+[17:50:02] [8/INFO] [tML]: Sandboxing: AutoReroll
+[17:50:02] [8/INFO] [tML]: Sandboxing: betterpiercing
+[17:50:02] [8/INFO] [tML]: Sandboxing: BossChecklist
+[17:50:02] [8/INFO] [tML]: Sandboxing: FKBossHealthBar
+[17:50:02] [8/INFO] [tML]: Sandboxing: MagicStorage
+[17:50:02] [8/INFO] [tML]: Sandboxing: NoMoreTombs
+[17:50:02] [8/INFO] [tML]: Sandboxing: RecipeBrowser
+[17:50:02] [8/INFO] [tML]: Sandboxing: VeinMiner
+[17:50:02] [8/INFO] [tML]: Sandboxing: WeaponOut
+[17:50:02] [8/INFO] [tML]: Sandboxing: WheresMyItems
+[17:50:02] [8/INFO] [tML]: Sandboxing: WingSlot
+[17:50:02] [8/INFO] [tML]: Sandboxing: YAATJ
+[17:50:02] [8/INFO] [tML]: Instantiating Mods...
+[17:50:02] [8/INFO] [tML]: Initializing: ModLoader v0.11.6.2
+[17:50:03] [8/INFO] [tML]: Initializing: CalamityMod v1.4.2.111
+[17:50:06] [8/INFO] [tML]: Initializing: CalamityModMusic v1.4.2.1
+[17:50:06] [8/INFO] [tML]: Initializing: AlchemistNPCLite v1.6.6
+[17:50:07] [8/INFO] [tML]: Initializing: AutoReroll v1.3.7
+[17:50:07] [8/INFO] [tML]: Initializing: betterpiercing v0.3
+[17:50:07] [8/INFO] [tML]: Initializing: BossChecklist v1.0.10
+[17:50:07] [8/DEBUG] [tML]: Assembly Resolve: BossChecklist_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[17:50:07] [8/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
+[17:50:07] [8/INFO] [tML]: Initializing: FKBossHealthBar v1.3.2
+[17:50:07] [8/INFO] [tML]: Initializing: MagicStorage v0.4.3.5
+[17:50:07] [8/INFO] [tML]: Initializing: NoMoreTombs v1.0.1
+[17:50:07] [8/INFO] [tML]: Initializing: RecipeBrowser v0.8.4.1
+[17:50:07] [8/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
+[17:50:07] [8/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[17:50:07] [8/INFO] [tML]: Initializing: VeinMiner v1.3.1
+[17:50:07] [8/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[17:50:07] [8/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[17:50:08] [8/INFO] [tML]: Initializing: WeaponOut v1.6.4
+[17:50:08] [8/INFO] [tML]: Initializing: WheresMyItems v0.5.1
+[17:50:08] [8/INFO] [tML]: Initializing: WingSlot v1.7.3
+[17:50:08] [8/INFO] [tML]: Initializing: YAATJ v1.2.1.1
+[17:50:08] [8/INFO] [tML]: Setting up...
+[17:50:08] [8/INFO] [tML]: Loading: ModLoader v0.11.6.2
+[17:50:08] [8/INFO] [tML]: Loading: CalamityMod v1.4.2.111
+[17:50:09] [8/INFO] [tML]: Loading: CalamityModMusic v1.4.2.1
+[17:50:09] [8/INFO] [tML]: Loading: AlchemistNPCLite v1.6.6
+[17:50:09] [8/INFO] [tML]: Loading: AutoReroll v1.3.7
+[17:50:09] [8/INFO] [tML]: Loading: betterpiercing v0.3
+[17:50:09] [8/INFO] [tML]: Loading: BossChecklist v1.0.10
+[17:50:09] [8/INFO] [tML]: Loading: FKBossHealthBar v1.3.2
+[17:50:09] [8/INFO] [tML]: Loading: MagicStorage v0.4.3.5
+[17:50:09] [8/INFO] [tML]: Loading: NoMoreTombs v1.0.1
+[17:50:09] [8/INFO] [tML]: Loading: RecipeBrowser v0.8.4.1
+[17:50:09] [8/INFO] [tML]: Loading: VeinMiner v1.3.1
+[17:50:09] [8/INFO] [tML]: Loading: WeaponOut v1.6.4
+[17:50:09] [8/INFO] [tML]: Loading: WheresMyItems v0.5.1
+[17:50:09] [8/INFO] [tML]: Loading: WingSlot v1.7.3
+[17:50:09] [8/INFO] [tML]: Loading: YAATJ v1.2.1.1
+[17:50:09] [8/INFO] [tML]: Adding Recipes...
+[17:50:10] [8/INFO] [BossChecklist]: AddBossWithInfo calls for the following are not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience: Desert Scourge, Crabulon, Hive Mind / Perforator, Slime God, Cryogen, Brimstone Elemental, Aquatic Scourge, Calamitas, Leviathan, Astrum Aureus, Plaguebringer Goliath, Ravager, Astrum Deus, Profaned Guardians, Bumblebirb, Providence, Ceaseless Void, Storm Weaver, Signus, Polterghast, Devourer of Gods, Yharon, Supreme Calamitas
+[17:50:10] [8/INFO] [BossChecklist]: Updated Mod.Call documentation for BossChecklist: https://github.com/JavidPack/BossChecklist/wiki/Support-using-Mod-Call#modcalls
+[17:50:10] [8/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[17:50:10] [8/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[17:50:22] [31/INFO] [Terraria]: Loading World: SingleCalamity, IsCloud=False
+[17:50:22] [31/INFO] [StatusText]: Resetting game objects
+[17:50:23] [31/INFO] [StatusText]: Loading world data
+[17:50:23] [31/INFO] [StatusText]: Settling liquids
+[17:50:23] [31/INFO] [StatusText]: Loading map data
+[17:50:23] [31/INFO] [StatusText]: Drawing map
+[17:50:24] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[17:50:24] [1/INFO] [Terraria]: Entering world with player: SingleCalamity, IsCloud=False
+[17:51:14] [25/INFO] [StatusText]: Saving map data
+[17:51:15] [25/INFO] [StatusText]: Saving world data
+[17:51:15] [25/INFO] [StatusText]: Validating world save
+[17:51:22] [1/DEBUG] [tML]: Process.Start (UseShellExecute = False): "tModLoaderServer.exe" -autoshutdown -password "" -lang 1 -world "C:\Users\Kristóf\Documents\My Games\Terraria\ModLoader\Worlds\SingleCalamity.wld" -modpath "C:\Users\Kristóf\Documents\My Games\Terraria\ModLoader\Mods" -steam -localsteamid 76561198095473117 -lobby friends
+[17:51:22] [40/INFO] [Terraria]: Connecting to 127.0.0.1:7777
+[17:51:24] [40/WARN] [tML]: Silently Caught Exception: 
+System.Net.Sockets.SocketException: Nem hozható létre kapcsolat, mert a célszámítógép már visszautasította a kapcsolatot 127.0.0.1:7777
+   a következő helyen: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   a következő helyen: System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   a következő helyen: System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   a következő helyen: System.Net.Sockets.TcpClient.Connect(IPAddress address, Int32 port)
+   a következő helyen: Terraria.Net.Sockets.TcpSocket.Terraria.Net.Sockets.ISocket.Connect(RemoteAddress address)
+   a következő helyen: Terraria.Netplay.TcpClientLoop(Object threadContext)
+   a következő helyen: System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   a következő helyen: System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   a következő helyen: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   a következő helyen: System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   a következő helyen: System.Threading.ThreadPoolWorkQueue.Dispatch()
+   a következő helyen: System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+[17:51:33] [1/INFO] [tML]: Server reports AllowVanillaClients set to False
+[17:51:35] [1/WARN] [tML]: Silently Caught Exception: 
+System.IO.EndOfStreamException: Unable to read beyond the end of the stream.
+   at System.IO.BinaryReader.ReadByte()
+   at AlchemistNPCLite.AlchemistNPCLiteWorld.NetReceive(BinaryReader reader) in AlchemistNPCLiteWorld.cs:line 50
+   at Terraria.ModLoader.IO.WorldIO.<>c__DisplayClass16_0.<ReceiveModData>b__0(BinaryReader r)
+   at Terraria.ModLoader.IO.BinaryIO.SafeRead(BinaryReader reader, Action`1 read)
+   at Terraria.ModLoader.IO.WorldIO.ReceiveModData(BinaryReader reader)
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType)
+   at Terraria.NetMessage.CheckBytes(Int32 bufferIndex)
+   at Terraria.Netplay.<>c.<InnerClientLoop>b__38_0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task task, Boolean taskWasPreviouslyQueued)
+   at System.Threading.Tasks.TaskScheduler.TryRunInline(Task task, Boolean taskWasPreviouslyQueued)
+   at System.Threading.Tasks.Task.InternalRunSynchronously(TaskScheduler scheduler, Boolean waitForCompletion)
+   at Terraria.Netplay.OnUpdate()
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.WindowsLaunch.Main(String[] args)
+
+[17:51:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:51:35] [40/INFO] [StatusText]: Freeing unused resources
+[17:51:35] [40/INFO] [StatusText]: Loading map data
+[17:51:36] [40/INFO] [StatusText]: Drawing map
+[17:51:36] [40/INFO] [StatusText]: Receiving tile data
+[17:51:36] [1/INFO] [Terraria]: Entering world with player: SingleCalamity, IsCloud=False
+[17:51:37] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:52:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:53:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:54:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:55:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:55:51] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:56:01] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:56:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:57:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:57:38] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:58:24] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:58:26] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:58:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:58:41] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:58:54] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[17:59:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:00:08] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:00:13] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:13] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:13] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SacredTools_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:13] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:13] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SacredTools_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SacredTools_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SacredTools_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SacredTools_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SacredTools_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SacredTools_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SacredTools_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> AAMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Laugicality_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Laugicality_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Laugicality_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Laugicality_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Laugicality_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Laugicality_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Laugicality_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> pinkymod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> pinkymod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> pinkymod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:16] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> pinkymod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:00:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:00:48] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:01:17] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:01:32] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:01:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:02:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:02:48] [40/INFO] [StatusText]: Receiving tile data
+[18:02:48] [40/INFO] [StatusText]: Receiving tile data
+[18:02:54] [40/INFO] [StatusText]: Receiving tile data
+[18:03:14] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:03:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:03:52] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:03:59] [40/INFO] [StatusText]: Receiving tile data
+[18:04:05] [40/INFO] [StatusText]: Receiving tile data
+[18:04:08] [40/INFO] [StatusText]: Receiving tile data
+[18:04:17] [40/INFO] [StatusText]: Receiving tile data
+[18:04:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:05:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:06:05] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:06:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:07:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:08:21] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:08:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:08:58] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:09:28] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:09:31] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:09:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:10:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:11:01] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:11:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:11:40] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:12:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:13:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:14:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:15:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:16:33] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:16:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:16:54] [40/INFO] [StatusText]: Receiving tile data
+[18:17:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:17:56] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:18:02] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:18:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:19:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:20:01] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:20:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:21:03] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:21:30] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:21:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:22:35] [1/ERROR] [tML]: Above IOException error caused by AlchemistNPCLiteWorld from the AlchemistNPCLite mod.
+[18:22:43] [9/INFO] [StatusText]: Saving map data

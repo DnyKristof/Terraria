@@ -1,0 +1,107 @@
+﻿[17:51:23] [1/INFO] [tML]: Starting tModLoader v0.11.6.2 Windows server (2020. 01. 30.)
+[17:51:23] [1/INFO] [tML]: Running on NetFramework 4.8
+[17:51:23] [1/INFO] [tML]: Executable: F:\SteamLibrary\steamapps\common\Terraria\tModLoaderServer.exe
+[17:51:23] [1/INFO] [tML]: Working Directory: F:\SteamLibrary\steamapps\common\Terraria
+[17:51:23] [1/INFO] [tML]: Launch Parameters: -autoshutdown -password -lang 1 -world C:\Users\Kristóf\Documents\My Games\Terraria\ModLoader\Worlds\SingleCalamity.wld -modpath C:\Users\Kristóf\Documents\My Games\Terraria\ModLoader\Mods -steam -localsteamid 76561198095473117 -lobby friends
+[17:51:23] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[17:51:23] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[17:51:23] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[17:51:23] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[17:51:23] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[17:51:24] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+[17:51:25] [1/INFO] [tML]: Unloading mods
+[17:51:26] [1/INFO] [tML]: Finding Mods...
+[17:51:26] [1/INFO] [tML]: Sandboxing: CalamityMod
+[17:51:27] [1/INFO] [tML]: Sandboxing: CalamityModMusic
+[17:51:27] [1/INFO] [tML]: Sandboxing: AlchemistNPCLite
+[17:51:27] [1/INFO] [tML]: Sandboxing: AutoReroll
+[17:51:27] [1/INFO] [tML]: Sandboxing: betterpiercing
+[17:51:27] [1/INFO] [tML]: Sandboxing: BossChecklist
+[17:51:27] [1/INFO] [tML]: Sandboxing: MagicStorage
+[17:51:27] [1/INFO] [tML]: Sandboxing: NoMoreTombs
+[17:51:27] [1/INFO] [tML]: Sandboxing: RecipeBrowser
+[17:51:27] [1/INFO] [tML]: Sandboxing: VeinMiner
+[17:51:28] [1/INFO] [tML]: Sandboxing: WeaponOut
+[17:51:28] [1/INFO] [tML]: Sandboxing: WheresMyItems
+[17:51:28] [1/INFO] [tML]: Sandboxing: WingSlot
+[17:51:28] [1/INFO] [tML]: Sandboxing: YAATJ
+[17:51:28] [1/INFO] [tML]: Instantiating Mods...
+[17:51:28] [1/INFO] [tML]: Initializing: ModLoader v0.11.6.2
+[17:51:28] [1/INFO] [tML]: Initializing: CalamityMod v1.4.2.111
+[17:51:28] [1/INFO] [tML]: Initializing: CalamityModMusic v1.4.2.1
+[17:51:28] [1/INFO] [tML]: Initializing: AlchemistNPCLite v1.6.6
+[17:51:28] [1/INFO] [tML]: Initializing: AutoReroll v1.3.7
+[17:51:28] [1/INFO] [tML]: Initializing: betterpiercing v0.3
+[17:51:28] [1/INFO] [tML]: Initializing: BossChecklist v1.0.10
+[17:51:28] [1/DEBUG] [tML]: Assembly Resolve: BossChecklist_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[17:51:28] [1/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
+[17:51:28] [1/INFO] [tML]: Initializing: MagicStorage v0.4.3.5
+[17:51:28] [1/INFO] [tML]: Initializing: NoMoreTombs v1.0.1
+[17:51:28] [1/INFO] [tML]: Initializing: RecipeBrowser v0.8.4.1
+[17:51:28] [1/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[17:51:28] [1/INFO] [tML]: Initializing: VeinMiner v1.3.1
+[17:51:28] [1/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[17:51:29] [1/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[17:51:29] [1/INFO] [tML]: Initializing: WeaponOut v1.6.4
+[17:51:29] [1/INFO] [tML]: Initializing: WheresMyItems v0.5.1
+[17:51:29] [1/INFO] [tML]: Initializing: WingSlot v1.7.3
+[17:51:29] [1/INFO] [tML]: Initializing: YAATJ v1.2.1.1
+[17:51:29] [1/INFO] [tML]: Setting up...
+[17:51:29] [1/INFO] [tML]: Loading: ModLoader v0.11.6.2
+[17:51:29] [1/INFO] [tML]: Loading: CalamityMod v1.4.2.111
+[17:51:31] [1/INFO] [tML]: Loading: CalamityModMusic v1.4.2.1
+[17:51:31] [1/INFO] [tML]: Loading: AlchemistNPCLite v1.6.6
+[17:51:31] [1/INFO] [tML]: Loading: AutoReroll v1.3.7
+[17:51:31] [1/INFO] [tML]: Loading: betterpiercing v0.3
+[17:51:31] [1/INFO] [tML]: Loading: BossChecklist v1.0.10
+[17:51:31] [1/INFO] [tML]: Loading: MagicStorage v0.4.3.5
+[17:51:31] [1/INFO] [tML]: Loading: NoMoreTombs v1.0.1
+[17:51:31] [1/INFO] [tML]: Loading: RecipeBrowser v0.8.4.1
+[17:51:31] [1/INFO] [tML]: Loading: VeinMiner v1.3.1
+[17:51:31] [1/INFO] [tML]: Loading: WeaponOut v1.6.4
+[17:51:31] [1/INFO] [tML]: Loading: WheresMyItems v0.5.1
+[17:51:31] [1/INFO] [tML]: Loading: WingSlot v1.7.3
+[17:51:31] [1/INFO] [tML]: Loading: YAATJ v1.2.1.1
+[17:51:31] [1/INFO] [tML]: Adding Recipes...
+[17:51:31] [1/INFO] [BossChecklist]: AddBossWithInfo calls for the following are not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience: Desert Scourge, Crabulon, Hive Mind / Perforator, Slime God, Cryogen, Brimstone Elemental, Aquatic Scourge, Calamitas, Leviathan, Astrum Aureus, Plaguebringer Goliath, Ravager, Astrum Deus, Profaned Guardians, Bumblebirb, Providence, Ceaseless Void, Storm Weaver, Signus, Polterghast, Devourer of Gods, Yharon, Supreme Calamitas
+[17:51:31] [1/INFO] [BossChecklist]: Updated Mod.Call documentation for BossChecklist: https://github.com/JavidPack/BossChecklist/wiki/Support-using-Mod-Call#modcalls
+[17:51:31] [6/INFO] [Terraria]: Loading World: SingleCalamity, IsCloud=False
+[17:51:31] [6/INFO] [StatusText]: Resetting game objects
+[17:51:32] [6/INFO] [StatusText]: Loading world data
+[17:51:32] [6/INFO] [StatusText]: Settling liquids
+[17:51:33] [6/INFO] [Terraria]: 127.0.0.1:62207 is connecting...
+[17:51:33] [1/INFO] [Terraria]: Running one update...
+[17:51:33] [1/INFO] [tML]: Server starting with AllowVanillaClients set to False
+[17:51:33] [1/DEBUG] [tML]: Fallback synchronization context assigned
+[17:51:33] [1/INFO] [Terraria]: Sending Server Config AlchemistNPCLite ModConfiguration: {}
+[17:51:33] [1/INFO] [Terraria]: Sending Server Config YAATJ YAATJConfig: {}
+[17:51:34] [1/INFO] [Terraria]: Listening on port 7777
+[17:51:36] [7/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[17:51:36] [7/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
+[17:51:36] [7/DEBUG] [tML]: Assembly Resolve:  -> Mono.Cecil.Mdb, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[17:51:36] [7/DEBUG] [tML]: Assembly Resolve:  -> Mono.Cecil.Pdb, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[17:51:37] [1/INFO] [Terraria]: SingleCalamity has joined.
+[17:51:37] [7/INFO] [Terraria]: JIT loading finished
+[17:52:24] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[17:56:01] [3/INFO] [StatusText]: Saving world data
+[17:56:01] [3/INFO] [StatusText]: Validating world save
+[18:20:01] [15/INFO] [StatusText]: Saving world data
+[18:20:01] [15/INFO] [StatusText]: Validating world save
+[18:20:14] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BossChecklist.PlayerAssist.PreUpdate() in BossChecklist\PlayerAssist.cs:line 167
+   at Terraria.ModLoader.PlayerHooks.PreUpdate(Player player)
+   at Terraria.Player.Update(Int32 i)
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Terraria.Main.DedServ()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.WindowsLaunch.Main(String[] args)
+
+[18:22:44] [1/INFO] [Terraria]: SingleCalamity has left.
+[18:22:44] [1/INFO] [Terraria]: Local player left. Autoshutdown starting.
+[18:22:44] [1/INFO] [StatusText]: Saving world data
+[18:22:44] [1/INFO] [StatusText]: Validating world save
+[18:22:45] [10/INFO] [StatusText]: Saving world data
+[18:22:45] [10/INFO] [StatusText]: Validating world save
